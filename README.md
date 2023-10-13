@@ -21,10 +21,12 @@ public class MiClase {
     }
 }
 ```
-# Metodos 
+# Metodos
+```
 [Escribir un archivo] - [Write a file]
 [Crear un archivo] - [Create a file]
 [Mover un archivo] - [Move a file]
 [Copiar un archivo] - [Copy a file]
 [Borrar un archivo] - [Delete a file]
 [Leer un archivo] - [Read a file]
+```
