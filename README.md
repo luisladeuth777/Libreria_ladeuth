@@ -30,3 +30,41 @@ public class MiClase {
 [Borrar un archivo] - [Delete a file]
 [Leer un archivo] - [Read a file]
 ```
+# Activacion de los Metodos
+
+Escribir un archivo:
+Para escribir contenido en un archivo, utiliza la función writeFile. Proporciona la ruta del archivo y el contenido que deseas escribir.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.writeFile("ruta_del_archivo.txt", "Contenido del archivo");
+```
+Crear un archivo:
+Para crear un nuevo archivo, utiliza la función createFile. Proporciona la ubicación del archivo que deseas crear.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.createFile("nuevo_archivo.txt");
+```
+Mover un archivo:
+Para mover un archivo de una ubicación a otra, utiliza la función moveFile. Proporciona la ruta de origen y la ruta de destino.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.moveFile("origen/archivo.txt", "destino/archivo.txt");
+```
+Copiar un archivo:
+Para copiar un archivo a una ubicación diferente, utiliza la función copyFile. Proporciona la ruta de origen y la ruta de destino.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.copyFile("origen/archivo.txt", "destino/archivo_copiado.txt");
+```
+Borrar un archivo:
+Para eliminar un archivo, utiliza la función deleteFile. Proporciona la ruta del archivo que deseas eliminar.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.deleteFile("archivo_a_borrar.txt");
+```
+Leer un archivo:
+Para leer el contenido de un archivo, utiliza la función readFile. Proporciona la ruta del archivo que deseas leer.
+```
+FileHandler fileHandler = new FileHandler();
+fileHandler.readFile("archivo_a_leer.txt");
+```
