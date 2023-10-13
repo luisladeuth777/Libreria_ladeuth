@@ -10,9 +10,9 @@ En el archivo Java donde deseas utilizar la clase FileHandler, comienza por impo
 import ladeuth.FileHandler;
 
 Luego, crea una instancia de la clase FileHandler en tu archivo Java. Por ejemplo:
+```
 public class MiClase {
-
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         FileHandler fileHandler = new FileHandler();
 
         // A partir de aquí, puedes utilizar los métodos de FileHandler.
@@ -20,4 +20,4 @@ public class MiClase {
         fileHandler.writeFile("archivo.txt", "Contenido de ejemplo");
     }
 }
-
+```
