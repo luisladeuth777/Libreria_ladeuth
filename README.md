@@ -1,5 +1,5 @@
 # Libreria_ladeuth
-Este repositorio contiene el Manual de Usuario de "ladeuth," una herramienta versátil para gestionar archivos. "ladeuth" ofrece funciones como creación, escritura, copia, movimiento y eliminación de archivos. El manual guía a los usuarios en el uso eficiente de la aplicación y resolución de problemas.
+"ladeuth," una herramienta versátil para gestionar archivos. "ladeuth" ofrece funciones como creación, escritura, copia, movimiento y eliminación de archivos. El manual guía a los usuarios en el uso eficiente de la aplicación y resolución de problemas.
 
 # Como usar 
 Para utilizar la libreria FileHandler en otro archivo Java, necesitas importarla y crear una instancia de la clase en tu nuevo archivo. A continuación, te muestro cómo hacerlo paso a
